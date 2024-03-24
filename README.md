@@ -1,5 +1,5 @@
-## README
-We provide a sample code for Self-Prompting, you can run Self-Prompting (InstructGPT) on a toy dataset.
+## Self-Prompting
+Code example for paper [***Self-Prompting Large Language Models for Zero-Shot Open-Domain QA***](https://arxiv.org/abs/2212.08635) (NAACL 2024).
 
 ### Requirements
 - python 3.7
@@ -61,4 +61,16 @@ python -u new_main.py \
 #### Evaluation
 ```
 python collect_merge_delete_eval.py
+```
+
+### Citation
+If you find this code helpful, please kindly cite this:
+
+```
+@article{li2022self,
+  title={Self-prompting large language models for zero-shot open-domain qa},
+  author={Li, Junlong and Wang, Jinyuan, and Zhang, Zhuosheng and Zhao, Hai},
+  journal={arXiv preprint arXiv:2212.08635},
+  year={2022}
+}
 ```
